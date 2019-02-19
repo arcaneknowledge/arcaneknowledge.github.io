@@ -2,8 +2,14 @@ html, body
 {
 	height:100%;
 	width: 100%;
-	background-color: #2E86AB; 
+	margin: 0;
+	color: #fff;
 
+	/*background-color: #2E86AB; */
+
+}
+body {
+	background-image:url("../ressources/background.svg");
 }
 
 /* Arcane font */
@@ -17,8 +23,37 @@ p {
 }*/
 @font-face {
 	font-family: "Guru";
-	src: url("fonts/Atures.ttf");
+	src: url("fonts/Slim-Extreme.ttf");
 }
-#titles-head {
+#ralewayer {
+	font-family: Inconsolata;
+	font-color:#fff;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #000000;
+}
+
+/* Example*/
+/*#stylishTitle {
+	display: inline-block;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Guru";
+    padding-top: 0;
+    color: #4889C5;
+    font-size: 3.5vw;
+    text-shadow: 1px 1px 1px #000000;
+    padding-bottom: 0;
+    margin: 0 auto;
+    line-height: 1;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}*/
+#stylishTitle {
 	font-family: "Guru";
+	color: #026094;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #000000;
+	font-size: 2.6vw;
 }
+/* font size is 2.6vw */
