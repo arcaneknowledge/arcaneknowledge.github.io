@@ -1,0 +1,168 @@
+
+#the-main
+{
+    min-height: 100%;
+    min-width: 100%;
+}
+
+
+.classical-nav{
+    position: inherit;
+    background-color: #242427;
+}
+
+.masked-nav{
+    position: fixed;
+    background-color: #242427;
+    z-index: 9999;
+    height: 2%;
+    transition: height 1s ease;
+}
+
+.masked-nav ul{
+    display: none;
+}
+
+.masked-nav:hover{
+    position: fixed;
+    background-color: #242427;
+    z-index: 9999;
+    height: 10%;
+}
+
+.masked-nav:hover ul{
+    display:inherit;
+}
+.masked-nav .brand-logo{
+    height: 200%;
+    width: 10%;
+    background-color:#242427;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.masked-nav:hover .brand-logo{
+    height: 100%;
+    width: 10%;
+    background-color:#242427;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+#arcane-logo
+{
+    max-height: 70px;
+    max-width: 70px;
+}
+body
+{
+    font-family: 'Poppins', sans-serif;
+    
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+    min-width: 100%;
+}
+.illustration
+{
+    max-height: 55%;
+    max-width: 55%;
+    border-radius: 40%;
+    opacity: 0.5
+}
+
+.transparent
+{
+    background-color: aqua;
+}
+.content
+{
+    top:10%;
+    margin-top: 10%;
+}
+.titlesque
+{
+    
+    background-color: blue;
+    padding-top: 100px;
+    align-content: center;
+    text-align: center;
+    min-height: 70%;
+    vertical-align:middle;
+    color:white;
+    font-size:40;
+}
+.no-shadows {
+    box-shadow: none!important;
+    border: none!important;
+    border-bottom: 0px solid orange !important;
+}
+
+
+.padding-site
+{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#first-slide{
+    background-color: #242427;
+    width: 100%;
+    padding: 20px;
+    padding-left: 40px;
+    padding-top: 100px;
+}
+#first-slide h2
+{
+    color:white;
+}
+#first-slide h3
+{
+    padding-left: 10px;
+    font-size: 30px;
+    color:white;
+}
+#second-slide{
+    background-color: white;
+    padding:6%;
+}
+#third-slide{
+    padding: 6%;
+}
+#fourth-slide{
+    background-color:white;
+    padding: 6%;
+}
+
+
+.page-footer{
+    background-color: #242427;
+}
+
+#third-slide{
+    background-color:#242427;
+    color:white;
+}
+
+#fifth-slide{
+    padding: 20%;
+    color: white;
+    background-image: url("../fireworks.png");
+     background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+}
+
+.grenat{
+    color:#9A2D39;
+    display: inline-block;
+}
+.social{
+    font-size:48px;
+    
+}
+.social:hover{
+    color:#9A2D39;
+}
+.container-fluid{
+    background-color:#242427;
+}
+
